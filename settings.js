@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "NENO-XMD~ePBnBbYI#btKtlvl3bBtIduJ2CjNi0kgmyZN8v2Q5o0trqaRQpMQ",
+    SESSION_ID: process.env.SESSION_ID || "NENO-XMD~fLY1FJCY#tCnHYieQLNvbeuaGHDAgPr810wezcb72DwHrl48vabQ",
     // add your Session Id make sure it starts with NENO~
 
     PREFIX: process.env.PREFIX || ".",
@@ -36,7 +36,7 @@ module.exports = {
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NENO.XMD 💖😍*",
     // set the auto reply message on status reply  
 
-    WELCOME: process.env.WELCOME || "true",
+    WELCOME: process.env.WELCOME || "false",
     // true if want welcome and goodbye msg in groups 
 
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
